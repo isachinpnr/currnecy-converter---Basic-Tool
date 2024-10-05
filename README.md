@@ -24,7 +24,7 @@ Installation & Setup.....
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/YourUsername/currency-converter-tool.git
+git clone https://github.com/isachinpnr/currnecy-converter---Basic-Tool.git
 Navigate to the project directory:
 bash
 Copy code
