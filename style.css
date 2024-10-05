@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", system-ui;
+    /* font-weight: 500; */
+    /* font-style: normal; */
+}
+
+.container {
+    padding: 80px 50px 50px 50px;
+    margin: 50px 120px 0px 120px;
+    /* border-radius: 5%; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(216, 43, 187, 0.452);
+}
+
+.main_div {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ammountDiv label {
+    font-size: 15px;
+    font-weight: 500;
+}
+.ammountDiv input{
+    font-size: 18px;
+    padding: 7px;
+    width: 200px;
+    margin: 0px 5px 0px 0px;
+}
+.fromDiv label{
+    font-size: 15px;
+    font-weight: 500;
+}
+.fromDiv select {
+    font-size: 18px;
+    padding: 7px;
+    width: 200px;
+}
+.toDiv label{
+    font-size: 15px;
+    font-weight: 500;
+}
+.toDiv select {
+    font-size: 18px;
+    padding: 7px;
+    width: 200px;
+}
+.iconDiv{
+    display: flex;
+  margin-right: 5%;
+}
+.iconDiv i{
+    margin-top: 25px;
+    font-size: 40px;
+}
+.convertBtn{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5%;
+}
+button{
+    padding: 12px 25px 12px 25px;
+    border: none;
+    background-color: #2b65da;
+    border-radius: 10%;
+    cursor: pointer;
+    margin-right: 10%;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.topHD{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.fleg{
+    margin: 3% 3% 0% 0%;
+}

@@ -1,0 +1,65 @@
+@media screen and (max-width : 1300px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+    }
+    .main_div{
+        display: flex;
+        flex-direction: column;
+    }
+    .topHD{
+        margin-right: 20%;
+    }
+    .ammountDiv input{
+        width: 287px;
+    }
+
+.fromDiv select{
+    width: 270px;
+}
+.toDiv select{
+    width: 270px;
+}
+.convertBtn {
+    margin-top: 3%;
+}
+button{
+    padding: 5px 15px;
+}
+.msg-div{
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+}
+@media screen and (max-width : 810px){
+    .topHD{
+        margin-left: 15%;
+        font-size: 15px;
+    }
+    .container{
+        margin: 10px 120px 0px 120px;
+    }
+}
+@media screen and (max-width : 600px){
+    .container{
+        width: 40%;
+    }
+    .topHD{
+        margin-left: 20%;
+        font-size: 10px;
+    }
+    button{
+        margin-right: 36%;
+        padding: 3px 10px;
+    }
+    button a{
+        font-size: 13px;
+    }
+    .msg-div{
+        font-weight: 600;
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+}

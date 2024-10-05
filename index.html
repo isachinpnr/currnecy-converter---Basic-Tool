@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <div class="topHD">
+        <h2>This is a Currency Converter Tool.....</h2>
+    </div>
+
+    <div class="container">
+
+        <div class="main_div">
+
+            <div class="ammountDiv">
+                <label for="ammount">Amount</label><br>
+                <input type="text" name="country" placeholder="1">
+            </div>
+
+            <div class="fromDiv">
+                <label for="From">From</label><br>
+                <select name="from">
+                </select>
+            </div>
+
+            <div class="fromFleg fleg">
+                <img src="https://flagsapi.com/IN/flat/64.png">
+            </div>
+
+            <div class="iconDiv">
+                <i class="bi bi-arrow-left-short"></i>
+                <i class="bi bi-currency-exchange"></i>
+                <i class="bi bi-arrow-right-short"></i>
+            </div>
+
+            <div class="toDiv">
+                <label for="To">To</label><br>
+                <select name="to">
+                </select>    
+            </div>
+
+            <div class="toFleg fleg">
+                <img src="https://flagsapi.com/RU/flat/64.png">
+            </div>
+
+        </div>
+        <div class="convertBtn">
+            <button><a href="#">Convert</a></button>
+
+        </div>
+        <div class="msg-div">
+            <p id="value">this is your value</p>
+        </div>
+
+    </div>
+    <script src="code.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
